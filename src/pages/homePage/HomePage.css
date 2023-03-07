@@ -1,0 +1,21 @@
+
+.clip-text {
+  background: url(https://media.giphy.com/media/SZfBTkwb2jx9C/giphy.gif);
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  color: transparent; /* set to transparent, otherwise won't see the background*/
+
+  width: 600px;
+  height: 100px;
+  box-sizing: border-box;
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+}
+.HomePages {
+  align-items: center;
+}

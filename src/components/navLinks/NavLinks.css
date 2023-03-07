@@ -1,0 +1,8 @@
+.NavLinks {
+    display: flex;
+    justify-content: space-around;
+
+}
+.NavLinks a {
+    text-decoration: none;
+}
