@@ -1,23 +1,39 @@
-.card {
-    display: flex;
-    justify-content: center ;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  max-width: 300px;
+.styleCard {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px #ccc;
+  color: #253b56;
+  margin: 12px 0px;
+  width: 350px;
+  height: 450px;
 }
 
-.card, img {
-    border-radius: 5px;
-    height: 400px;
-    width: 285px;
-    object-fit: cover;
-    margin: 20px 0px;
+.styleCardContent {
+  padding: 4px 16px 20px 16px;
 }
 
-.card p {
-  font-size: 14px;
-  color: #333;
+.styleImage {
+  background-color: lightGray;
+  border-radius: 8px 8px 0 0;
+  max-height: 140px;
+  overflow: hidden;
 }
+
+.styleCardTitle {
+  font-family: Avenir-Heavy;
+  font-size: 20;
+  font-weight: 600;
+  margin: 12px 0 0 0;
+}
+
+.styleLocationLabel {
+  color: #8294aa;
+  font-size: 14;
+  margin: 4px 0;
+}
+
+.styleDescription {
+  font-size: 14;
+  margin: 8px 0 0 0;
+}
+
 
