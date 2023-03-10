@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+.App {
+    height: 100vh;
+    background-color: var(--back);
+}
+
+.bg-bubble-1 {
+    width: 672.01px;
+    height: 876.53px;
+    position: fixed;
+    top: 55vh;
+    left: 60vw;
+    background: radial-gradient(var(--bubbles), transparent);
+    filter: blur(100px);
+    animation: selfRotate1 600s linear infinite;
+    transform: rotate(132.72deg);
+    transform-origin: center center;
+    transition: all 4s linear;
+    pointer-events: none;
+}
+@keyframes selfRotate1 {
+    0% {
+    transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-360deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.bg-bubble-2 {
+    width: 985.93px;
+    height: 1900.15px;
+    position: fixed;
+    top: -100vh;
+    left: -60vw;
+    background: radial-gradient(var(--bubbles), transparent);
+    filter: blur(150px);
+    transform: rotate(36.21deg);
+    transform-origin: center center;
+    animation: selfRotate2 80s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes selfRotate2 {
+    0% {
+    transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-360deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

@@ -1,1 +1,11 @@
-
+:root {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    --light: #fff;
+    --dark: #000;
+    --accent: hsl(173, 93%, 55%);
+    --faccent: hsla(173, 93%, 55%, 0.8);
+    --gray: hsl(0, 0%, 56%);
+    --back: #283044;
+    --bubbles: #78A1BB;
+}

@@ -3,6 +3,10 @@
     justify-content: space-around;
 
 }
+
 .NavLinks a {
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
+
