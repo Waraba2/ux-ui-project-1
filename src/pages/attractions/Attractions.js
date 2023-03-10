@@ -1,7 +1,8 @@
 import React from 'react';
 import {Card} from "../../components";
+import {NavBar} from "../../containers";
 import {blue_lagoon, hotel_budir, hvitserkur,landmannalaugar, maelifell, reynisfjara, seljalandsfoss,skogafoss} from "../../assets";
-import './Places.css'
+import './Attractions.css'
 
 const title_blue_lagoon = 'Blue Lagoon'
 const location_blue_lagoon  = 'Iceland'
@@ -59,11 +60,13 @@ const description_skógafoss = `An easy stop off Route 1 (aka the Ring Road), Sk
     `of so many waterfalls, that's definitely saying something. The 197-foot cascade crashes onto black sand, and you can` +
     `walk right up to the bottom if you're willing to get drenched. Worth it for the double rainbow viewings, we say.`;
 
-const Places = () => {
+const Attractions = () => {
 
     return (
-        <div className="Places">
-            <Card
+        <div className="Attractions">
+            <NavBar />
+                <div className="Attractions_Card">
+                        <Card
                 image={blue_lagoon}
                 title={title_blue_lagoon }
                 location={location_blue_lagoon }
@@ -113,8 +116,9 @@ const Places = () => {
                 location={location_skógafoss}
                 description={description_skógafoss}
             />
+                </div>
         </div>
     );
 };
 
-export default Places;
+export default Attractions;

@@ -1,6 +1,12 @@
-.Places {
+.Attractions_Card {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
+.Attractions {
+    background-color: var(--back);
+}
+
+
+
+

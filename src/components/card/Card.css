@@ -5,17 +5,22 @@
   margin: 12px 0px;
   width: 350px;
   height: 450px;
+    background-color: #EBF5EE;
 }
 
 .styleCardContent {
   padding: 4px 16px 20px 16px;
+
 }
 
 .styleImage {
   background-color: lightGray;
   border-radius: 8px 8px 0 0;
-  max-height: 140px;
+  max-height: 175px;
   overflow: hidden;
+}
+.styleCardContent, img {
+  object-fit: cover;
 }
 
 .styleCardTitle {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavLinks.css';
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const NavLinks = () => {
     return (
@@ -9,11 +9,11 @@ const NavLinks = () => {
           share across all the pages on your site, like navigation. */}
             <Link to="/">Home</Link>
 
-            <Link  to="/places">Places</Link>
+            <Link  to="/attractions">Attractions</Link>
 
             <Link  to="/restaurants">Restaurants</Link>
 
-            <Link  to="/attractions">Attractions</Link>
+            <Link  to="/architecture">Architecture</Link>
 
             <Link  to="/nothing-here">Nothing Here</Link>
 
