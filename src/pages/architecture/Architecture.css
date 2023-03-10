@@ -1,0 +1,8 @@
+.Architecture_Card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Architecture {
+    background-color: var(--back);
+}

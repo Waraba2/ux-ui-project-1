@@ -15,7 +15,7 @@ const description_bergson = `Possibly, one of the best restaurants in Iceland fo
     `right in the centre of Reykjavik (Templarasund 3), making it really easy to find.The menu has some of the most` +
     `delicious baked goodies that are so moreish!Obviously, they serve so much more than baked dreams, though!` +
     `Bergsson Mathus make a pretty mean avocado and smoked salmon that’ll set you up for the day. It’s a totally` +
-    `laid-back spot that lets the food do the talking. Opening around 7 am, you can pop in before a day exploring the city.`;
+    `laid-back spot that lets the food do the talking.`;
 
 const title_bryggjan =`Bryggjan Cafe, Grindavik`;
 const location_bryggjan = `Iceland`;
