@@ -1,0 +1,8 @@
+.Restaurants_Card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Restaurants {
+    background-color: var(--back);
+}
