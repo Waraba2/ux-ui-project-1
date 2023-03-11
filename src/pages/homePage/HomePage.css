@@ -16,6 +16,6 @@
   line-height: 100px;
   flex-shrink: 0;
 }
-.HomePages {
-  align-items: center;
+.HomePage, img {
+  width: 100%;
 }
