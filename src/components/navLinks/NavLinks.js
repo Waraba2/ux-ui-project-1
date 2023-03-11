@@ -15,7 +15,7 @@ const NavLinks = () => {
 
             <Link  to="/architecture">Architecture</Link>
 
-            <Link  to="/nothing-here">Nothing Here</Link>
+            <Link  to="/nothinghere">Nothing Here</Link>
 
         </div>
     );
